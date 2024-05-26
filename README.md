@@ -3,13 +3,13 @@
 
 FRONDEND
 
--cd frontend
--npm start
+- cd frontend
+- npm start
 
 
 BACKEND
 
--cd backend
+- cd backend
 - node .\Server.js 
 
 
