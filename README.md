@@ -1,8 +1,5 @@
-Sure, here is a polished and professional README file for your e-commerce project built using the MERN stack:
 
----
-
-# E-commerce Project
+# E-commerce Project ANIK
 
 This e-commerce project was completed this month by learning and implementing the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
@@ -40,16 +37,17 @@ Follow these steps to set up the project locally:
 
 1. **Start the backend server:**
    ```bash
-   npm run start
+   cd backend
+   node .\Server.js  /  nodemon .\Server.js
    ```
 
 2. **Start the frontend server:**
    ```bash
-   cd client
+   cd frontend
    npm start
    ```
 
-3. **Access the application at:** `http://localhost:3000`
+3. **Access the application at:** `http://localhost:5173`
 
 ## Dependencies
 
@@ -141,7 +139,3 @@ If you encounter execution policy issues on Windows, run the following commands 
 Get-ExecutionPolicy
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-
----
-
-By following this structure, your README file will provide clear, professional, and comprehensive information about your project, making it easier for others to understand and contribute to your work.
